@@ -1,4 +1,4 @@
-package src.android.widget.custom.numberpicker.samples;
+package android.widget.custom.numberpicker.samples;
 
 import android.widget.custom.NumberPicker;
 
@@ -8,13 +8,13 @@ import android.os.Bundle;
 /**
  * @author Simon Vig Therkildsen <simonvt@gmail.com>
  */
-public class LightThemeActivity extends Activity {
+public class DarkThemeActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_light);
+        setContentView(R.layout.activity_dark);
 
         NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
         np.setMaxValue(20);

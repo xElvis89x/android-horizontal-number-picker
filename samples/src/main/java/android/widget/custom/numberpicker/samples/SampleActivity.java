@@ -1,4 +1,4 @@
-package src.android.widget.custom.numberpicker.samples;
+package android.widget.custom.numberpicker.samples;
 
 import android.app.Activity;
 import android.content.Intent;

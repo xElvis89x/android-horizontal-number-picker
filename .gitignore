@@ -1,25 +1,39 @@
-/*
+.gradle
+/local.properties
+/.idea/workspace.xml
+.DS_Store
 
-!.gitignore
-!README.md
-!LICENSE
-!pom.xml
+/build
+#eclipse
+.project
+.classpath
 
-!library/
-library/*
-!library/src/
-!library/res/
-!library/libs/
-!library/AndroidManifest.xml
-!library/build.xml
-!library/project.properties
-!library/pom.xml
+# built application files
+*.apk
+*.ap_
 
-!samples/
-samples/*
-!samples/src/
-!samples/res/
-!samples/AndroidManifest.xml
-!samples/build.xml
-!samples/project.properties
-!samples/pom.xml
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+#idea
+.idea/
+*.iml
+
+.DS_Store
+
+.settings
+
+.gradle/
+Facebook/build/
+ViewPageIndicator/build
